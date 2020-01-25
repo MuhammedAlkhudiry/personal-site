@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.2.2",
+        "node-sass": "^4.13.1",
         "tippy.js": "^5.1.4",
         "unsplash-js": "^6.0.0",
         "vue-tippy": "^4.3.1"
