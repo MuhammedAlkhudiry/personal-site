@@ -1918,41 +1918,44 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "app",
   methods: {
     scroll: function scroll(e) {
       var clickedItemId = e.target.parentElement.dataset.id;
-      console.log(clickedItemId);
 
       switch (clickedItemId) {
-        case 'home':
+        case "home":
           this.$children[1].$el.scrollIntoView();
           break;
 
-        case 'projects':
+        case "projects":
           this.$children[2].$el.scrollIntoView();
           break;
 
-        case 'contactMe':
+        case "contactMe":
           this.$children[3].$el.scrollIntoView();
           break;
       }
     },
     changeBackground: function changeBackground(e) {
       var clickedItemId = e.target.parentElement.dataset.id;
-      console.log(clickedItemId);
 
       switch (clickedItemId) {
-        case 'home':
+        case "home":
           this.$children[1].$el.scrollIntoView();
           break;
 
-        case 'projects':
+        case "projects":
           this.$children[2].$el.scrollIntoView();
           break;
 
-        case 'contactMe':
+        case "contactMe":
           this.$children[3].$el.scrollIntoView();
           break;
       }
@@ -40554,7 +40557,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "\n* {\n    direction: rtl;\n    text-align: right;\n    list-style: none;\n    scroll-behavior: smooth;\n}\n.main-container {\n    overflow: hidden;\n    background: -webkit-gradient(linear, right top, left top, from(#007bff), color-stop(#17a2b8), to(#1048e7));\n    background: linear-gradient(270deg, #007bff, #17a2b8, #1048e7);\n    background-size: 600% 600%;\n\n    -webkit-animation: animation 36s ease infinite;\n    animation: animation 36s ease infinite;\n}\n@-webkit-keyframes animation {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n@keyframes animation {\n0% {\n        background-position: 0% 50%;\n}\n50% {\n        background-position: 100% 50%;\n}\n100% {\n        background-position: 0% 50%;\n}\n}\n", ""]);
+exports.push([module.i, "\n* {\n  direction: rtl;\n  text-align: right;\n  list-style: none;\n  scroll-behavior: smooth;\n}\n.bg {\n  /* Set rules to fill background */\n  min-height: 100%;\n  min-width: 1024px;\n\n  /* Set up proportionate scaling */\n  width: 100%;\n  height: auto;\n\n  /* Set up positioning */\n  position: fixed;\n  top: 0;\n  left: 0;\n  z-index: -111111;\n}\n", ""]);
 
 // exports
 
@@ -58581,30 +58584,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "main-container", on: { scroll: _vm.changeBackground } },
-    [
-      _c("Nav", {
-        nativeOn: {
-          click: function($event) {
-            return _vm.scroll($event)
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    _c(
+      "div",
+      { on: { scroll: _vm.changeBackground } },
+      [
+        _c("Nav", {
+          nativeOn: {
+            click: function($event) {
+              return _vm.scroll($event)
+            }
           }
-        }
-      }),
-      _vm._v(" "),
-      _c("MainSection"),
-      _vm._v(" "),
-      _c("ProjectsSection"),
-      _vm._v(" "),
-      _c("Title", { attrs: { text: "تواصل معي" } }),
-      _vm._v(" "),
-      _c("ContactMe")
-    ],
-    1
-  )
+        }),
+        _vm._v(" "),
+        _c("MainSection"),
+        _vm._v(" "),
+        _c("ProjectsSection"),
+        _vm._v(" "),
+        _c("Title", { attrs: { text: "تواصل معي" } }),
+        _vm._v(" "),
+        _c("ContactMe")
+      ],
+      1
+    )
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "bg" }, [
+      _c("canvas", { attrs: { id: "main-container" } })
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -76560,8 +76576,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_tippy__WEBPACK_IMPORTED_MODULE_6__["default"]); // Vue.component("tippy", TippyComponent);
-
+vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_tippy__WEBPACK_IMPORTED_MODULE_6__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BootstrapVue"]);
 vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_3__["BootstrapVueIcons"]);
 
@@ -76576,6 +76591,10 @@ new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
     return h(_App_vue__WEBPACK_IMPORTED_MODULE_2__["default"]);
   }
 }).$mount('#app');
+Thpace.create(document.querySelector('#main-container'), {
+  colors: ['#4CB1EF', '#424959', '#FF4B44'],
+  triangleSize: 100
+});
 
 /***/ }),
 

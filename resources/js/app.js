@@ -2,13 +2,12 @@ import './bootstrap'
 import Vue from 'vue'
 import App from './App.vue'
 import { BootstrapVue, BootstrapVueIcons } from 'bootstrap-vue'
-
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import VueTippy, { TippyComponent } from "vue-tippy";
+import VueTippy from "vue-tippy";
+
 
 Vue.use(VueTippy);
-// Vue.component("tippy", TippyComponent);
 Vue.use(BootstrapVue)
 Vue.use(BootstrapVueIcons)
 
@@ -22,3 +21,8 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 
+
+Thpace.create(document.querySelector('#main-container'), {
+	colors: ['#4CB1EF',  '#424959',  '#FF4B44'],
+	triangleSize: 100
+});

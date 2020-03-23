@@ -1,96 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$USER_HOME$/personal-site">
-      <sourceFolder url="file://$USER_HOME$/personal-site/app" isTestSource="false" packagePrefix="App\" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
-      <sourceFolder url="file://$USER_HOME$/personal-site/tests" isTestSource="true" packagePrefix="Tests\" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/doctrine/inflector" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/doctrine/instantiator" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/doctrine/lexer" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/dragonmantank/cron-expression" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/egulias/email-validator" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/facade/flare-client-php" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/facade/ignition" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/facade/ignition-contracts" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/fideloper/proxy" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/filp/whoops" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/fzaninotto/faker" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/hamcrest/hamcrest-php" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/jakub-onderka/php-console-color" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/jakub-onderka/php-console-highlighter" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/laravel/framework" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/laravel/tinker" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/laravel/ui" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/league/commonmark" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/league/commonmark-ext-table" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/league/flysystem" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/mockery/mockery" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/monolog/monolog" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/myclabs/deep-copy" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/nesbot/carbon" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/nikic/php-parser" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/nunomaduro/collision" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/opis/closure" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/paragonie/random_compat" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phar-io/manifest" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phar-io/version" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpdocumentor/reflection-common" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpdocumentor/reflection-docblock" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpdocumentor/type-resolver" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpoption/phpoption" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpspec/prophecy" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/php-code-coverage" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/php-file-iterator" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/php-text-template" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/php-timer" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/php-token-stream" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/phpunit/phpunit" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/psr/container" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/psr/log" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/psr/simple-cache" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/psy/psysh" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/ramsey/uuid" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/scrivo/highlight.php" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/code-unit-reverse-lookup" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/comparator" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/diff" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/environment" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/exporter" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/global-state" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/object-enumerator" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/object-reflector" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/recursion-context" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/resource-operations" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/type" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/sebastian/version" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/swiftmailer/swiftmailer" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/console" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/css-selector" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/debug" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/error-handler" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/event-dispatcher" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/event-dispatcher-contracts" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/finder" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/http-foundation" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/http-kernel" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/mime" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-ctype" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-iconv" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-intl-idn" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-php72" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/polyfill-php73" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/process" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/routing" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/service-contracts" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/translation" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/translation-contracts" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/symfony/var-dumper" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/theseer/tokenizer" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/tijsverkoyen/css-to-inline-styles" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/vlucas/phpdotenv" />
-      <excludeFolder url="file://$USER_HOME$/personal-site/vendor/webmozart/assert" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
